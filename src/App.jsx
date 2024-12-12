@@ -50,7 +50,7 @@ function App() {
   return (
     <>
       <div className="app">
-        <img src="./src/assets/img/pokemon.svg" alt="" className='logo' />
+        <img src="src/assets/img/pokemon.svg" alt="" className='logo' />
         <div className='search_container'>
         <input className='text_field-pokemon' type="text" value={inputValue} onChange={inputChange} placeholder='Pokemon Name or pokedex code'/>
         <button className='submit_button' type="submit" onClick={handleClick}>Submit</button>
